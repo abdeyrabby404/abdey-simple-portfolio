@@ -269,7 +269,9 @@ hr {
     /* background-color: red; */
     margin-bottom: 0px;
 }
-
+.footer-container{
+    display: flex;
+}
 .footer-info {
     width: 50%;
 }
@@ -294,6 +296,14 @@ footer textarea {
 /* responsive media query  */
 @media screen and (max-width: 576px) {
     /* technology section style  */
+    .tecnology{
+        border: 1px solid black;
+        margin-left: 15px;
+        padding: 30px;
+    }
+    .tech-padding{
+        padding: 0px;
+    }
     .cards {
         flex-direction: column;
         align-items: center;
@@ -316,7 +326,8 @@ footer textarea {
         flex-direction: column;
         padding: 1px;
         text-align: center;
-        border: 1px solid red;
+        border: 1px solid black;
+        margin-left: 15px;
     }
     .footer-container{
         display: flex;
@@ -324,5 +335,43 @@ footer textarea {
         align-items: center;
         padding-bottom: 30px;
     }
+
+    /* about-content */
+    .about{
+        margin-left: 15px;
+    }
+    .about-items{
+        flex-direction: column;
+    }
+
+    /* header section style  */
+    nav{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* banner section style  */
+    header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner-info{
+        width: 100%;
+    }
+    .banner-info > h1{
+        font-size: 50px;
+    }
+    
 }
 
