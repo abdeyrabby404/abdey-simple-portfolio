@@ -4,26 +4,26 @@
     padding: 0;
 } */
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
 /* shared color  */
 
-.primary-color{
+.primary-color {
     color: #FD6E0A;
 }
 
-.dark-2{
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
-    padding:18px 36px;
+.btn-primary {
+    padding: 18px 36px;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -32,8 +32,9 @@
     background-color: #FD6E0A;
     cursor: pointer;
 }
-.btn-primary-2{
-    padding:18px 36px;
+
+.btn-primary-2 {
+    padding: 18px 36px;
     color: #FD6E0A;
     font-weight: bold;
     font-size: 20px;
@@ -42,147 +43,167 @@
     background-color: transparent;
     cursor: pointer;
 }
-.btn-space{
+
+.btn-space {
     display: flex;
     gap: 30px;
 }
-.bg-color{
+
+.bg-color {
     background-color: #FFF8F3;
 }
 
-.center{
+.center {
     text-align: center;
 }
-.left{
+
+.left {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
 }
-.btn-margin{
+
+.btn-margin {
     margin-top: 50px;
 }
+
 /* header style */
-header{
+header {
     background-color: #FFF8F3;
-    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
 
 /* Nav style */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 230px;
-    
+
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
-    
+
 }
 
 nav ul li a {
     text-decoration: none;
     margin-right: 53px;
-    
+
 }
 
 /* Banner style */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 37px 0 230px;
 }
-.banner img{
+
+.banner img {
     width: 584px;
 }
-.banner-info{
+
+.banner-info {
     width: 585px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: bold;
 }
-.banner-desc{
+
+.banner-desc {
     font-size: 18px;
     color: #757575;
 }
 
 /* main style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
+
+section {
     margin: 130px 0px 130px 0px;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
     text-align: center;
 }
-.section-desc{
+
+.section-desc {
     color: #757575;
     font-size: 18px;
     text-align: center;
 }
-.about{
+
+.about {
     height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
 }
-.about-container{
+
+.about-container {
     background-color: white;
     width: 827px;
     border: 1px solid black;
-    
+
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
     /* align-items: center;
     gap: 20px; */
 }
-.item-title{
+
+.item-title {
     font-size: 20px;
     text-align: center;
     color: #757575;
 }
-.item-subtitle{
+
+.item-subtitle {
     font-size: 20px;
     text-align: center;
     color: #474747;
 }
 
 /* technology style */
-.tech-padding{
+.tech-padding {
     padding: 0px 130px;
     margin-bottom: 50px;
 }
-.cards{
+
+.cards {
     display: flex;
     gap: 24px;
 }
-.card{
+
+.card {
     width: 267px;
     /* height: 377px; */
     /* border: 1px solid black; */
@@ -191,66 +212,90 @@ section{
     border-radius: 5px;
 }
 
-.card-title{
+.card-title {
     font-weight: bold;
     font-size: 20px;
     color: #181818;
     /* font-family: sans-serif; */
 }
-.card-desc{
+
+.card-desc {
     color: #757575;
     font-size: 16px;
 }
 
 /* Resume style  */
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 24px;
 }
-.resume-col{
-    wid
+
+.resume-col {
+    width: 50%
 }
-.resume-col-title{
+
+.resume-col-title {
     color: #474747;
     font-size: 30px;
     margin-bottom: 30px;
 }
-.degree{
+
+.degree {
     font-size: 25px;
     color: #474747;
 }
-.year{
+
+.year {
     font-size: 20px;
     color: #757575;
 }
-.resume-desc{
+
+.resume-desc {
     font-size: 16px;
     color: #757575;
 }
-hr{
+
+hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 /* footer style  */
-.footer{
+.footer {
     padding: 130px 230px 130px 230px;
     display: flex;
     gap: 117px;
     /* background-color: red; */
     margin-bottom: 0px;
 }
-.footer-info{
+
+.footer-info {
     width: 50%;
 }
-footer input[type="text"], footer input[type="email"], footer textarea {
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
     width: 100%;
     height: 64px;
     display: block;
-    font-size: 16px ;
+    font-size: 16px;
     padding: 18px 0px 18px 30px;
     border: none;
     border-radius: 5px;
     margin-bottom: 24px;
+}
+
+.hide {
+    display: none;
+}
+
+/* responsive media query  */
+@media screen and (max-width: 576px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
