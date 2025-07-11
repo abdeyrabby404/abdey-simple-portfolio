@@ -293,11 +293,13 @@ footer textarea {
 
 /* responsive media query  */
 @media screen and (max-width: 576px) {
+    /* technology section style  */
     .cards {
         flex-direction: column;
         align-items: center;
     }
 
+    /* resume section style  */
     .resume {
         border: 1px solid black;
         margin-left: 15px;
@@ -308,4 +310,19 @@ footer textarea {
         align-items: center;
 
     }
+
+    /* footer section style  */
+    .footer{
+        flex-direction: column;
+        padding: 1px;
+        text-align: center;
+        border: 1px solid red;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
 }
+
